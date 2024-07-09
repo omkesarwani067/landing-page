@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <header>
+            <a href="#" class="logo"> Fitness</a>
+            <div class="toggle"></div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Trainers</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li> 
+            </ul>
+        </header>
+        <div class="content">
+            <div class="contentbx">
+                <h2>Build Perfect Body<br>
+                with Clean Mind</h2>
+                <p>Physical fitness is all about keeping your body in good shape so that
+                     it can work well and fight off sickness. Think of your body like a car;
+                      just as a car needs fuel, oil changes, and regular check-ups to run smoothly,
+                       your body needs exercise, healthy food, and rest to be at its best.</p>
+                       <a href="#">Get Started</a>
+            </div>
+        </div>
+        <ul class="sci">
+            <li><a href="#"> <img src="twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="instagram.png" alt=""></a></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </section>
+    <script type="text/javascript">
+        function toggle(){
+            const toggle =document.querySelector('.toggle');
+            const navigation =document.querySelector('.navigation');
+            toggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+
+        }
+    </script>
+</body>
+</html>
